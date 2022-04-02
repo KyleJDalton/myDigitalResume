@@ -1,6 +1,10 @@
 body{
     margin:0;
     text-align:center;
+    display: flex;
+    flex-direction:column;
+    font-family: "merriweather", arial, helvetica, sans-serif;
+    background-color:#EEEEEE;
 }
 
 
@@ -20,38 +24,115 @@ p{
     font-size:large;
 }
 h1{
-    font-family:serif;
+    
 }
-.instagram-icon{
-    width:80px
+h2{
+    font-family: "Montserrat"; 
 }
 
-.email-icon{
-    width:65px
+hr{
+    
+    border: none;
+    border-top: dotted ;
+    border-width: 7px;
+    width: 6%;
+    border-color:#D3D5FD;
+    padding-bottom: 30px
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+}
+
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+
+
+
+.icon{
+    width:4rem;
+    margin: 2rem;
+}
+.icon:hover{
+    transform:scale(1.5);
+    transition: 1s;
+    
 }
 
 .heading-text{
-    color: rgb(199, 199, 197);
+    color:#EEEEEE;
     text-align: center;
     padding-bottom: 20px;
+    
 }
-.Nav-menu{
-    list-style-type: none;
-}
+
 
 .skills{
 list-style-type: none;
 }
+#headshot1{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width:200px;
+}
+
 #headshot{
     display: block;
+    border-radius: 100px;
     margin-left: auto;
     margin-right: auto;
     width: 150px
 }
 #contact{
-    color: rgb(199, 199, 197);
+    color: #EEEEEE;
     
 }
 #sidebar{
-    background-color:rgb(151, 149, 149)
+    background-color:#DBD8E3;
+    padding:30px;
+}
+
+#heading{
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+#language-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+#logo-html{
+    padding-top: 50px;
+    width:4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo-css{
+    padding-top: 50px;
+    width:3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#education-logo{
+    width:4rem;
+    padding-top: 30px;
+}
+#work-logo{
+    width:3rem;
+    padding-top: 30px;
+}
+#skills-logo{
+    width: 4rem;
+    padding-top: 30px;
 }
