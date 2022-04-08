@@ -88,11 +88,14 @@ list-style-type: none;
 
 #headshot{
     display: block;
-    border-radius: 100px;
+    border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
-    width: 150px
+    width: 200px
+    
 }
+
+
 #contact{
     color: #EEEEEE;
     
@@ -138,4 +141,8 @@ list-style-type: none;
 #skills-logo{
     width: 4rem;
     padding-top: 1rem;
+}
+
+#contact-page{
+    padding: 20px;
 }
